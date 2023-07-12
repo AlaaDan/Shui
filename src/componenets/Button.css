@@ -1,0 +1,21 @@
+.button{
+    width: 72px;
+    height: 72px;
+    border-radius: 4px;
+    border: 2px;
+    background-color: #EF4343;
+    position: absolute;
+    /* bottom: 50px; */
+    bottom: calc(100% - 810px);
+    left: calc(411px - 85px);
+    cursor: pointer;
+  }
+  
+  .pencil{
+    background: no-repeat top/90% url(../assets/pincel.svg);
+    width: 52px;
+    height: 52px;
+    position: relative;
+    bottom: 2px;
+    right: 30px;
+  }

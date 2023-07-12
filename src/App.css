@@ -1,0 +1,29 @@
+.wrapper {
+  width: 411px;
+  height: 823px;
+  background-color: #19274A;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  left: 10px;
+  top: 10px;
+}
+
+.logo{
+
+  background: no-repeat top/100% url(./assets/shuiLogo.svg);
+  width: 80px;
+  height: 80px;
+  position: fixed;
+  top: 10px;
+  left: 30px;
+  margin: 0;
+}
+
+.h1{
+  font-size: 2rem;
+}
+
