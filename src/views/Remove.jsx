@@ -1,7 +1,17 @@
+import '../App.css'
+import './Remove.css'
+import Button from '../componenets/Button'
+
 function Remove () {
 
     return(
-        <h1>Remove a message</h1>
+        <div className='wrapper'>
+            <figure className='logo'></figure>
+            <figure id="waves" className='waves'></figure>
+
+            <Button/>
+
+        </div>
     )
 }
 
