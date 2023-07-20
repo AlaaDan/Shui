@@ -1,8 +1,17 @@
+import '../App.css'
+import './Flow.css'
+import Flowbox from '../componenets/FlowBox'
+import Button from '../componenets/Button'
+
 function Flow(){
 
 
     return(
-        <h1>You are on the Flow page</h1>
+        <div className='wrapper'>
+            <Flowbox/>
+            <figure className='logo'></figure>
+            <Button/>
+        </div>
         
     )
 }
