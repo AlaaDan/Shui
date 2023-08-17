@@ -1,11 +1,11 @@
 import './Button.css'
 import {useNavigate} from "react-router-dom"
 
-function Button(){
-    const navigate = useNavigate()
+function Button(props){
+    
 
     return(
-        <div className='button' onClick={()=>{navigate("/write")}}> <figure className='pencil'></figure></div>
+        <div className='button' onClick={props.onClick}> <figure className='pencil'></figure></div>
     )
 }
 

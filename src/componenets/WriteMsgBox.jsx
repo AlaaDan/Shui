@@ -1,15 +1,21 @@
 import './WriteMsgBox.css'
 
-function WritemsgBox (){
-
+function WriteMsgBox({ setInputText, inputText }) {
     return (
-        <div className='box'>
-            <figure className='edge'></figure>
-            <textarea name="text" cols="30" rows="10" wrap='soft' className='msg' placeholder='Write your message here'></textarea>
-
-            
-        </div>
+      <div className='box'>
+        <figure className='edge'></figure>
+        <textarea
+          name="text"
+          value={inputText}
+          cols="30"
+          rows="10"
+          wrap='soft'
+          onChange={(e) => setInputText(e.target.value)} // Use an arrow 
+          className='msg'
+          placeholder='Write your message here'
+        />
+      </div>
     )
-}
-
-export default WritemsgBox
+  }
+  
+  export default WriteMsgBox;
